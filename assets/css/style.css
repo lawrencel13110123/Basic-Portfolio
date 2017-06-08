@@ -1,4 +1,3 @@
-
 #lawrenceliu {
 	background-color: #4aaaa5;
 	text-align: center;
@@ -27,14 +26,22 @@ a {
 	color: #777777; 
 }
 
+#about:hover {
+	color: #4aaaa5;
+}
+
+#portfolio:hover {
+	color: #4aaaa5;
+}
+
+#contact:hover {
+	color: #4aaaa5;
+}
+
 #about {
 	border-right: thin solid #dddddd;
 	padding-right: 20px;
 	padding-left: 20px;
-}
-
-#about:hover {
-	color: #4aaaa5;
 }
 
 #portfolio {
@@ -43,17 +50,9 @@ a {
 	padding-left: 20px;
 }
 
-#portfolio:hover {
-	color: #4aaaa5;
-}
-
 #contact {
 	padding-right: 20px;
 	padding-left: 20px;
-}
-
-#contact:hover {
-	color: #4aaaa5;
 }
 
 #leftpanel {
@@ -173,63 +172,44 @@ a {
 
 /* FOR portfolio.html */
 .leftpixels {
-	width: 95%;
+	width: 100%;
 	display: block;
-	margin-right: 5px;
 	margin-bottom: 5px;
+	position: relative;
 }
 
 .rightpixels {
-	width: 95%;
+	width: 100%;
 	display: block;
-	margin-left: 5px;
 	margin-bottom: 5px;
 }
 
 #leftimagegroup {
-	width: 50%;
+	width: 45%;
 	float: left;
+	margin-left: 20px;
 }
 
 #rightimagegroup {
-	width: 50%;
+	width: 45%;
 	float: left;
-}
-
-.blocks1 {
-	position: relative;
-	margin-bottom: 20px;
-}
-
-.tag1 {
-	text-align: center;
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	bottom: 10px;
-	background: #4aaaa5;
-	color: #ffffff;
-	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	padding: 10px;
-	margin-right: 5px;
-	width: 87%;
-}
-
-.blocks2 {
-	position: relative;
-	margin-bottom: 20px;
-}
-
-.tag2 {
-	text-align: center;
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	bottom: 10px;
-	background: #4aaaa5;
-	color: #ffffff;
-	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	padding: 10px;
 	margin-left: 5px;
-	width: 87%;
+}
+
+.blocks {
+	clear: both;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+
+.tag {
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	background: #4aaaa5;
+	color: #ffffff;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	padding: 5%; 
+	width: 90%;
 }
